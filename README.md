@@ -32,7 +32,7 @@ The objective is to find how many of each crop to plant to maximize profits.
 
 ## Objective Function
 
-The objective function is defined as:
+The objective function is defined as\( P \):
 
 \[
 \text{Maximize } P = 20x + 30y
@@ -50,8 +50,8 @@ The solution must satisfy the following constraints:
 - \( 2x + y \leq 60 \) (Total liters of water)
 - \( 2x + 5y \leq 100 \) (Total kg of soil)
 - \( 5x + 4y \leq 200 \) (Total seeds)
-- \( x \geq 0 \) (Ensures at least one lavender plant are grown)
-- \( y \geq 0 \) (Ensures at least one rosemary plant are grown)
+- \( x \geq 1 \) (Ensures at least one lavender plant are grown)
+- \( y \geq 1 \) (Ensures at least one rosemary plant are grown)
 
 ## Implementation
 
@@ -62,6 +62,17 @@ The program is implemented in C++ and uses a simple linear search approach to fi
 
 2. **Local Search**: 
    - The program then performs a local search for a fixed number of iterations (2 times) to improve upon the initial solution by exploring neighboring plant counts.
+
+
+## Code Overview
+For a detailed explanation and implementation, please refer to the uploaded source code files (.cpp).
+
+## Conclusion
+This project demonstrates the application of linear programming techniques to optimize crop yields within specified constraints, helping farmers make informed decisions to maximize their profits.
+
+
+
+
 
 ### Adjustability
 
@@ -79,12 +90,4 @@ bool isValid(int x, int y) {
            (x >= 1) &&
            (y >= 1);
 }
-
-
-
-## Code Overview
-For a detailed explanation and implementation, please refer to the uploaded source code files (.cpp).
-
-## Conclusion
-This project demonstrates the application of linear programming techniques to optimize crop yields within specified constraints, helping farmers make informed decisions to maximize their profits.
 
