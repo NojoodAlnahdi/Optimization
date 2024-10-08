@@ -35,7 +35,7 @@ The objective is to find how many of each crop to plant to maximize profits.
 The objective function is defined as\( P \):
 
 
-- \ Maximize  P = 20x + 30y
+-  Maximize  P = 20x + 30y
 
 
 Where:
