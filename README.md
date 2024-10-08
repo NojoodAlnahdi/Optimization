@@ -46,12 +46,12 @@ Where:
 
 The solution must satisfy the following constraints:
 
-- \( 8x + 4y \leq 48 \) (Total weeks to ripen)
-- \( 2x + y \leq 60 \) (Total liters of water)
-- \( 2x + 5y \leq 100 \) (Total kg of soil)
-- \( 5x + 4y \leq 200 \) (Total seeds)
-- \( x \geq 1 \) (Ensures at least one lavender plant are grown)
-- \( y \geq 1 \) (Ensures at least one rosemary plant are grown)
+- \( 8x + 4y =< 48 \) (Total weeks to ripen)
+- \( 2x + y =< 60 \) (Total liters of water)
+- \( 2x + 5y =< 100 \) (Total kg of soil)
+- \( 5x + 4y =< 200 \) (Total seeds)
+- \( x => 1 \) (Ensures at least one lavender plant are grown)
+- \( y => 1 \) (Ensures at least one rosemary plant are grown)
 
 ## Implementation
 
