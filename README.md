@@ -1,5 +1,5 @@
 # Search Algorithms Project - Maximizing Crop Productivity
-for Optimization and Regression course
+**for Optimization and Regression course**
 ## Overview
 
 This project implements search algorithms in C++ to **maximize the productivity** of a farmer's crops—specifically, lavender and rosemary. The aim is to determine the optimal quantity of each crop that can be grown within specified constraints, thereby increasing sales and profit.
